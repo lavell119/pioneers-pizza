@@ -5,7 +5,7 @@
 }
 
 :root {
-    --color1:#970300;
+    --color1:black;
 }
 
 .header {
@@ -90,7 +90,7 @@ body {
     display: flex;
     align-items: center;
     background: purple;
-    background-image: url("images/banner-w-zag.png");
+    background-image: url("images/banner-zag.jpg");
 }
 
 .banner-content {
@@ -431,7 +431,7 @@ body {
 }
 
 .section-2 {
-    background-image: url("images/outside2-retro.jpg");
+    background-image: url("images/maxresdefault.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     height: 90vh;
@@ -614,6 +614,11 @@ body {
     justify-content: space-between;
     align-items: center;
     flex-direction: column;
+}
+
+.section-6-content img {
+    width: 400px;
+    height: auto;
 }
 
 .section-6-head {
